@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="script.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Basic form</title>
+</head>
+<body>
+   <div class="container">
+       <label for="email"><b>Email address /Phone Number </b><span class="r">*</span></label> <br>
+       <input type="text" name="email" id ="email_value" placeholder="Email or Phone" size="40" class="form-control" required><br>
+       <label for="pwd"><b>Enter Password</b> <span class="r">*</span></label>
+       <input type="password" name="pwd"  id="p_value"class ="form-control" placeholder="Enter Password" maxlength="8"><br>
+       <button class="btn btn-primary" onclick="check()">Login!</button> 
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
