@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="one.css">
+    <title>Contact Us</title>
+</head>
+<body style="font-size: large;">
+    <fieldset>
+        <legend>
+        <b>Contact us form</b>
+            
+        </legend>
+        <center>
+            <form action="" autocomplete="on" onsubmit="inform()">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="F-name">First Name:</label> <span class="red">*</span>
+                            </td>
+                            <td>
+                                <input type="text" name="" id="F-name" required size="25">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="lName">Last Name:</label> <span class="red">*</span>
+                            </td>
+                            <td>
+                                <input type="text" name="" id="lName" required size="25">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="phone">Phone Number:</label> <span class="red">*</span>
+                            </td>
+                            <td>
+                                <input type="text" name="" id="number" maxlength="10" size="25">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Description: <span class="red">*</span>
+                            </td>
+                            <td>
+                                <textarea name="" id="" cols="20" rows="10" form="" required></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <center>
+                                    <input type="submit" name="" id="" >
+                                </center>
+
+                            </td>      
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </center>
+       </fieldset>
+       <script>
+           function inform()
+           {
+               alert("Thanks for reaching out... we will get in touch shortly")
+           }
+       </script>
+</body>
+</html>
