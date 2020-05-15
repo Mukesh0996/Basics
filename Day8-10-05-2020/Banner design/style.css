@@ -1,0 +1,124 @@
+#main
+{
+   width: 40%; 
+    height: 200vh; 
+    background-color: #303e47; 
+    margin-left: 25%;
+}
+
+#one
+{
+    display: flex;
+    text-align: center;
+    width: 26%;
+    height: 30%;
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 12vh;
+    
+}
+#one_left
+{
+    flex: 1;
+
+    
+    background-color: orange;
+   
+}
+#one_right{
+    flex: 1;
+    background-color: #52c3e7;
+}
+#two
+{
+    
+    width: 26%;
+    height: 20%;
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: 146px;
+    background-color: #ff5959;
+   
+}
+
+#three
+{
+    width: 26%;
+    height: 20%;
+    position: absolute;
+    margin-top: 75vh;
+    margin-left: 146px;
+    background-color: #52c3e7;
+    display: flex;
+}
+#three_1
+{
+    flex: 1;
+}
+#three_2
+{
+    flex: 1;
+}
+#four
+{
+    display: flex;
+    text-align: center;
+    width: 26%;
+    height: 25%;
+    position: absolute;
+    margin-top: 100vh;
+    margin-left: 12vh;
+
+    
+}
+#four_one
+{
+    flex: 1;
+    background-color: #ff5959 ;
+}
+#four_two{
+    flex:1;
+    background-color: orange;
+}
+
+#five
+{
+    
+    width: 26%;
+    height: 15%;
+    position: absolute;
+    margin-top: 130vh;
+    margin-left: 12vh;
+    background-color: #52c3e7;
+}
+
+#six
+{
+    width: 26%;
+    height: 15%;
+    position: absolute;
+    margin-top: 150vh;
+    margin-left: 12vh;
+    background-color: orange;
+}
+
+#seven
+{
+    display: flex;
+    text-align: center;
+    width: 26%;
+    height: 25%;
+    position: absolute;
+    margin-top: 170vh;
+    margin-left: 12vh;
+
+}
+
+#seven_one{
+    flex: 1;
+    background-color: #52c3e7;
+}
+#seven_two{
+    flex: 1;
+    background-color: #ff5959;
+}

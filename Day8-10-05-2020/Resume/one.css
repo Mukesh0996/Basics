@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 500px;
+    padding: 10px;
+    height: 1100px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .img1{
+      width: 70px;
+      height: 70px;
+      vertical-align: middle;
+      border-radius: 50%;
+      border-style: dashed;
+      border-color:yellowgreen;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.four{
+    vertical-align: middle;
+    float: right;
+   
+}
+.two{
+    font-size: x-large;
+     color: gray;
+     font-weight: 800;
+ }
+ #one_center{
+     text-align: center;
+ }
+ .bottom{
+     text-align: right;
+     font-weight: bold;
+ }
+ .yellow{
+     background-color: yellow;
+ }
+ .profile
+ {
+  
+     width: 200px;
+     height: 200px;
+     border-radius: 100px;
+     border-color: yellowgreen;
+     border-style: dashed;
+ }
+ #top
+ {
+     background-color: yellowgreen;
+     border: 1px solid yellowgreen;
+     border-radius: 15px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
