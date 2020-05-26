@@ -1,0 +1,12 @@
+.one
+{
+    width: 1000px;
+    height: 500px;
+    background-color: aquamarine;
+    border-radius: 290px;
+    border-style: dashed;
+}
+img
+{
+    filter: grayscale(100%);
+}

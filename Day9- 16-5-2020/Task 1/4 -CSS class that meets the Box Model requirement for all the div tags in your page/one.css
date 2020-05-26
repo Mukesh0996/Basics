@@ -1,0 +1,40 @@
+.main
+{
+  
+    width: auto;
+    height: 1000px;
+    
+    margin: 5px 5px 5px 5px;
+    border: 10px solid black;
+    padding: 20px 20px 20px 20px;
+}
+.one
+{
+ width: 1950px;
+ height: 400px;
+ margin: 5px 5px 5px 5px;
+ border: 3px solid red;
+}
+
+.oneInner
+{
+    width: 450px;
+    height: 250px;
+    color: white;
+    background-color: black;
+    padding: 5px 5px 5px 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+   position: absolute;
+
+}
+
+.twoOnner
+{
+    width: 450px;
+    height: 250px;
+    background-color: turquoise;
+    margin-left: 700px;
+    margin-top: 30px;
+    padding: 5px 5px 5px 5px;
+}

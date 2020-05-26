@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Define a CSS class to show tooltip when mouse moved over the elements</title>
+    <style>
+       .tooltip .tooltiptext
+        {
+            visibility: hidden;
+            background-color: black;
+            color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .tooltip:hover .tooltiptext
+        {
+            visibility: visible;
+        }
+     
+    </style>
+</head>
+<body style="text-align: center;">
+    <div class="tooltip">
+    <h1>Hover the mouse on me to display the tooltip <span class="tooltiptext">I am the tool tip.. how may I help you</span></h1>
+</div>
+</body>
+</html>

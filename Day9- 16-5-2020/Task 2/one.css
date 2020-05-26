@@ -1,0 +1,40 @@
+#main
+{
+    height: 300px;
+    width: 600px;
+    display: flex;
+}
+#one
+{
+   background-color: red;
+   flex: 1;
+   order: 1;
+}
+#two
+{
+background-color: greenyellow;
+flex: 1;
+order: 2;
+}
+#three
+{
+
+    flex: 1;
+    order: 3;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+#three_1
+{
+    background-color: blue;
+    
+    flex: 1;
+}
+#three_2
+{
+    background-color: rgb(255, 8, 234);
+    flex: 1;
+  
+}

@@ -1,0 +1,15 @@
+.one
+{
+  
+    font-size: 20px;
+    color: brown;
+}
+@media only screen and (max-width:1000px)
+{
+    .one
+    {
+        font-size: xx-large;
+        font-weight: lighter;
+        color: blue;
+    }
+}
