@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+h1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    height: 60px;
+}
+
+.pagination
+{
+    display: inline-block;
+}
+.pagination a
+{
+   padding: 8px 16px;
+   text-decoration: none;
+   border: 1px solid black;  
+    border-radius: 3px;
+    color: black;
+   margin-right: 10px;
+   cursor: pointer;
+}
+
+.active
+{
+    background-color: cadetblue;
+    color: blue;
+  
+}
+a:hover:not(.active)
+{
+    background-color: #ddd;
+    color: blue;
+}
+.content
+{
+    margin-top: 5%;
+    width: 500px;
+    height: 600px;
+}
+

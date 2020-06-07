@@ -1,0 +1,16 @@
+img
+{
+    vertical-align: middle;
+    filter: grayscale(100%);
+}
+h2
+{
+    font-style: italic;
+    font-weight: bolder !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large !important;
+} 
+hr
+{
+    border: 0.5px solid black !important;
+}
